@@ -1,0 +1,150 @@
+/* Estilo global para el cuerpo */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2; /* Fondo neutro */
+  color: #333; /* Texto oscuro para buen contraste */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+/* Estilo para el título */
+h2 {
+  color: #4A2C7D; /* Lila oscuro para el título */
+  font-size: 24px; /* Reducir tamaño del título */
+  font-weight: bold;
+  margin-bottom: 15px; /* Reducir espacio debajo */
+  text-align: center;
+  text-transform: uppercase;
+  border-bottom: 2px solid #9A7BE1; /* Línea de separación debajo */
+  padding-bottom: 8px;
+}
+
+/* Estilo de la tabla */
+table {
+  width: 70%; /* Reducir el ancho de la tabla */
+  margin: 20px 0;
+  border-collapse: separate; /* Separar celdas */
+  border-spacing: 0; /* Elimina el espacio entre celdas */
+  background-color: #fff;
+  border-radius: 10px; /* Bordes redondeados */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Sombra más sutil */
+  overflow: hidden;
+}
+
+/* Estilo para las cabeceras de la tabla */
+table th {
+  padding: 8px; /* Reducir el padding */
+  background-color: #9A7BE1; /* Lila pastel */
+  color: white;
+  font-size: 14px; /* Reducir tamaño de fuente */
+  text-align: center;
+  font-weight: bold;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+/* Estilo para las filas */
+table tr:nth-child(even) {
+  background-color: #f9f9f9; /* Fondo más suave para filas pares */
+}
+
+table tr:nth-child(odd) {
+  background-color: #ffffff; /* Fondo blanco para filas impares */
+}
+
+/* Efecto hover para las filas */
+table tr:hover {
+  background-color: #D6B4F5; /* Fondo lila más oscuro */
+}
+
+/* Estilo para las celdas */
+table td {
+  padding: 8px; /* Reducir padding en las celdas */
+  text-align: center;
+  border: 1px solid #ddd; /* Borde suave */
+  font-size: 12px; /* Reducir tamaño de fuente */
+}
+
+/* Estilo para los enlaces (botones) */
+a {
+  text-decoration: none;
+  color: #fff; /* Texto blanco para los botones */
+  display: inline-block;
+  padding: 8px 16px; /* Reducir padding */
+  margin: 5px; /* Reducir margen */
+  border-radius: 6px; /* Bordes redondeados */
+  font-size: 14px; /* Reducir tamaño de fuente */
+  font-weight: bold;
+  text-align: center;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+/* Estilo para los enlaces de Alta, Reporte y Búsqueda */
+a[href="frm_fabricados.php"] {
+  background-color: #9A7BE1; /* Lila pastel */
+}
+
+a[href="reporte_productos.php"] {
+  background-color: #6E49B3; /* Lila oscuro */
+}
+
+a[href="busqueda.php"] {
+  background-color: #4B2D77; /* Lila más oscuro */
+}
+
+/* Estilo para los botones de Modificar y Eliminar */
+a[href*="modificar"], a[href*="borrar"] {
+  background-color: #6E49B3; /* Lila más oscuro */
+  color: white; /* Texto blanco */
+  font-size: 12px; /* Reducir tamaño de fuente */
+}
+
+a[href*="modificar"]:hover, a[href*="borrar"]:hover {
+  background-color: #C5A3E2; /* Fondo más claro */
+  color: #4B2D77; /* Texto más oscuro */
+}
+
+/* Efecto hover para los botones */
+a:hover {
+  background-color: #D6B4F5; /* Lila más oscuro al pasar el mouse */
+  transform: scale(1.1); /* Agrandar el botón al pasar el ratón */
+}
+
+/* Efecto active (al hacer clic) para los botones */
+a:active {
+  transform: scale(0.95); /* Reducir tamaño al hacer clic */
+}
+
+/* Fondo cuando el enlace ha sido visitado */
+a:visited {
+  color: #D6B4F5; /* Lila claro cuando se ha visitado */
+}
+
+/* Mejorar la visibilidad de los botones al pasar sobre ellos */
+a:hover {
+  background-color: #D6B4F5; /* Lila más oscuro al pasar el ratón */
+  color: #fff; /* Texto blanco */
+}
+
+/* Estilo para el pie de la tabla con enlaces de acción */
+footer {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+/* Centrado de enlaces de acción al final */
+footer a {
+  font-size: 14px;
+  margin: 0 12px; /* Reducir margen */
+  color: #4A2C7D; /* Lila oscuro para enlaces de acción */
+}
+
+footer a:hover {
+  color: #9A7BE1; /* Cambio de color de texto en hover */
+}
+

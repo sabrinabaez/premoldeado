@@ -1,0 +1,81 @@
+/* Estilos generales para la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 30px auto;
+    background-color: #f9f9f9;
+}
+
+/* Estilo para las celdas */
+th, td {
+    padding: 12px;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    border: 1px solid #ddd;
+}
+
+/* Encabezados de la tabla */
+th {
+    background-color: #BFA9D4; /* Color lila claro */
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* Filas de la tabla */
+td {
+    background-color: #F1E4FF; /* Color lila muy suave */
+    color: #5a2d92; /* Texto en un tono oscuro para contraste */
+}
+
+/* Fila alterna de la tabla */
+tr:nth-child(even) td {
+    background-color: #e7d6f1; /* Color lila ligeramente más oscuro */
+}
+
+/* Estilo del botón */
+input[type="button"] {
+    background-color: #8A64B4; /* Color de fondo lila fuerte */
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+input[type="button"]:hover {
+    background-color: #6f4c9c; /* Color de fondo al pasar el cursor */
+}
+
+/* Encabezado de la página */
+h1 {
+    color: #5a2d92; /* Color lila oscuro */
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+/* Párrafos y textos */
+p {
+    text-align: center;
+    font-size: 16px;
+    color: #5a2d92; /* Texto en tono lila */
+    font-family: 'Arial', sans-serif;
+}
+
+/* Alineación general de la página */
+body {
+    background-color: #f3eaff; /* Fondo muy suave en tono lila */
+    font-family: 'Arial', sans-serif;
+}
+
+/* Sombra en la tabla */
+.tablalistado {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
